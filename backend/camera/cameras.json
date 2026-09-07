@@ -1,0 +1,24 @@
+{
+  "cameras": [
+    {
+      "venue_id": 56,
+      "venue_name": "111",
+      "rtsp": "rtsp://admin:20241030@192.168.1.5:554/live/ch00_1",
+      "active": true,
+      "notes": "V380 Pro WiFi camera — mounted in venue 111"
+    },
+    {
+      "venue_id": 60,
+      "venue_name": "110",
+      "rtsp": "rtsp://admin:20241030@192.168.1.4:554/live/ch00_1",
+      "active": true,
+      "notes": "V380 Pro WiFi camera — mounted in venue 110"
+    }
+  ],
+  "defaults": {
+    "interval_seconds": 5,
+    "confidence": 0.4,
+    "api": "http://localhost:8001",
+    "model": "camera/yolov8n.onnx"
+  }
+}
